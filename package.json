@@ -6,7 +6,7 @@
     "name": "Jan T. Sott",
     "url": "http://github.com/idleberg"
   },
-  "keywords": [],
+  "keywords": ["nsis","nullsoft","installer","setup"],
   "repository": {
     "type": "git",
     "url": "https://github.com/idleberg/language-nlf"
