@@ -1,6 +1,6 @@
 {
   "name": "language-nlf",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Atom language support for NSIS Language Files",
   "author": {
     "name": "Jan T. Sott",
