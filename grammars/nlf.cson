@@ -9,31 +9,31 @@ patterns: [
   }
   {
     match: "\\b((0(x|X)[0-9a-fA-F]+)|([0-9]+(\\.[0-9]+)?))\\b"
-    name: "constant.numeric.nsis"
+    name: "constant.numeric.nlf"
   }
   {
-    undefined: "match"
-    "\\$_[\\w]+": "name"
+    match: "\\$_[\\w]+"
+    name: "entity.name.function.nlf"
   }
   {
-    undefined: "match"
-    "\\$[\\w]+": "name"
+    match: "\\$[\\w]+"
+    name: "storage.type.function.nlf"
   }
   {
-    undefined: "match"
-    "\\$\\(\\^[\\w]+\\)": "name"
+    match: "\\$\\(\\^[\\w]+\\)"
+    name: "string.value.nlf"
   }
   {
-    undefined: "match"
-    "\\%[\\w]+": "name"
+    match: "\\%[\\w]+"
+    name: "string.replacement.nlf"
   }
   {
-    undefined: "match"
-    "([\\w]?&[\\w]+)": "name"
+    match: "([\\w]?&[\\w]+)"
+    name: "constant.shortcut.nlf"
   }
   {
-    undefined: "match"
-    "\\\\.": "name"
+    match: "\\\\."
+    name: "constant.character.escape.nlf"
   }
 ]
 scopeName: "source.nlf"
