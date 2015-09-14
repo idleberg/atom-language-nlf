@@ -2,6 +2,7 @@ fileTypes: [
   "nlf"
 ]
 name: "NSIS Language File"
+comment: "https://github.com/atom/atom-language-nlf"
 patterns: [
   {
     match: "^\\s*#.*$\\n?"
