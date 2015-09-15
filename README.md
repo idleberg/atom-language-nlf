@@ -1,7 +1,8 @@
 # NSIS Language Files for Atom
 
-[![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](http://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/apm/v/language-nlf.svg?style=flat-square)](https://atom.io/packages/language-nlf)
+[![apm](https://img.shields.io/apm/l/language-nlf.svg?style=flat-square)](https://atom.io/packages/language-nlf)
+[![apm](https://img.shields.io/apm/v/language-nlf.svg?style=flat-square)](https://atom.io/packages/language-nlf)
+[![apm](https://img.shields.io/apm/dm/language-nlf.svg?style=flat-square)](https://atom.io/packages/language-nlf)
 [![Travis](https://img.shields.io/travis/idleberg/atom-language-nlf.svg?style=flat-square)](https://travis-ci.org/idleberg/atom-language-nlf)
 [![David](https://img.shields.io/david/dev/idleberg/atom-language-nlf.svg?style=flat-square)](https://david-dm.org/idleberg/atom-language-nlf#info=devDependencies)
 
