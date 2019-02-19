@@ -1,4 +1,9 @@
+# Package managers
 bower_components/
 node_modules/
 npm-debug.log
 vendor/
+
+# Project specific
+grammars/
+snippets/
