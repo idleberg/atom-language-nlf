@@ -19,6 +19,7 @@ Atom language support for NSIS Language Files
 
 1. Change directory `cd ~/.atom/packages/`
 2. Clone repository `git clone https://github.com/idleberg/atom-language-nlf language-nlf`
+3. Install Node dependencies `cd language-nlf && npm install`
 
 ## License
 
