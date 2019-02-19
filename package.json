@@ -37,7 +37,7 @@
     "coffeelint-stylish": "^0.1.2",
     "eslint": "^5.14.1",
     "eslint-config-atom-build": "^4.0.0",
-    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp": "^4.0.0",
     "gulp-coffeelint": "^0.6.0",
     "gulp-debug": "^4.0.0",
     "gulp-jshint": "^2.1.0",
