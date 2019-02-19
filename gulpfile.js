@@ -24,7 +24,6 @@ const jsonFiles = [
     './grammars/*.json',
     './keymaps/*.json',
     './menus/*.json',
-    './snippets/*.json',
     './package.json'
 ];
 
@@ -33,7 +32,7 @@ const lessFiles = [
 ];
 
 // Lint CoffeeScript & CSON files
-gulp.task('lint:coffee', gulp.series(function(done) { 
+gulp.task('lint:coffee', gulp.series(function(done) {
     gulp.src(coffeeFiles)
         .pipe(debug({title: 'coffeelint:'}))
         .pipe(coffeelint())
@@ -43,7 +42,7 @@ gulp.task('lint:coffee', gulp.series(function(done) {
 }));
 
 // Lint LESS files
-gulp.task('lint:less', gulp.series(function(done) { 
+gulp.task('lint:less', gulp.series(function(done) {
     gulp.src(lessFiles)
         .pipe(debug({title: 'lesshint:'}))
         .pipe(lesshint())
@@ -52,7 +51,7 @@ gulp.task('lint:less', gulp.series(function(done) {
 }));
 
 // Lint JavaScript files
-gulp.task('lint:js', gulp.series(function(done) { 
+gulp.task('lint:js', gulp.series(function(done) {
     gulp.src(jsFiles)
         .pipe(debug({title: 'jshint:'}))
         .pipe(jshint());
@@ -60,7 +59,7 @@ gulp.task('lint:js', gulp.series(function(done) {
 }));
 
 // Lint JSON files
-gulp.task('lint:json', gulp.series(function(done) { 
+gulp.task('lint:json', gulp.series(function(done) {
     gulp.src(jsonFiles)
         .pipe(debug({title: 'jsonlint:'}))
         .pipe(jsonlint())
