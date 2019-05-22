@@ -1,5 +1,6 @@
 // Dependencies
 const CSON = require('cson');
+const logSymbols = require('log-symbols');
 const toCapitalCase = require('to-capital-case');
 const toSlugCase = require('to-slug-case');
 const { join } = require('path');
@@ -39,5 +40,6 @@ mkdir('./snippets', {}, err => {
 
     writeFile(outFile, contents, (err) => {
         if (err) throw err;
+        console.log(logSymbols.success, `snippets/${outName}`);
     });
 });

@@ -33,6 +33,7 @@
     "@nsis/language-data": "^0.7.1",
     "atom-package-deps": "^5.0.0",
     "cson": "^5.1.0",
+    "log-symbols": "^3.0.0",
     "to-capital-case": "^1.0.0",
     "to-slug-case": "^1.0.0"
   },
