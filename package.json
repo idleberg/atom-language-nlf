@@ -26,8 +26,12 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
+  "package-deps": [
+    "language-nsis"
+  ],
   "dependencies": {
-    "@nsis/language-data": "^0.6.0",
+    "@nsis/language-data": "^0.7.1",
+    "atom-package-deps": "^5.0.0",
     "cson": "^5.1.0",
     "to-capital-case": "^1.0.0",
     "to-slug-case": "^1.0.0"
