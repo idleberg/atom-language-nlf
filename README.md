@@ -24,7 +24,3 @@ Atom language support for NSIS Language Files
 ## License
 
 This work is dual-licensed under [The MIT License](https://opensource.org/licenses/MIT) and the [GNU General Public License, version 2.0](https://opensource.org/licenses/GPL-2.0)
-
-## Donate
-
-You are welcome support this project using [Flattr](https://flattr.com/submit/auto?user_id=idleberg&url=https://github.com/idleberg/atom-language-nlf) or Bitcoin `17CXJuPsmhuTzFV2k4RKYwpEHVjskJktRd`
