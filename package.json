@@ -19,7 +19,8 @@
     "build": "npm-run-all --parallel build:*",
     "postinstall": "npm run build",
     "precommit": "npm run test",
-    "test": "gulp lint"
+    "lint": "eslint ./tools/*.cjs",
+    "test": "npm run lint"
   },
   "repository": {
     "type": "git",
@@ -45,5 +46,8 @@
     "eslint-plugin-json": "^3.1.0",
     "husky": "^7.0.1",
     "lint-staged": "^11.1.2"
+  },
+  "lint-staged": {
+    "*.cjs": "eslint --cache --fix"
   }
 }

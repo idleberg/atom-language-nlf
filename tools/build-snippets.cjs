@@ -23,7 +23,7 @@ mkdir('./snippets', {}, err => {
             const value = languages[language].strings[key];
 
             const snippet = {
-                'body': `# ^${key}\n$\{1:${value}\}$0`,
+                'body': `# ^${key}\n$\{1:${value}}$0`,
                 'prefix': key,
             };
             snippets[key] = snippet;
