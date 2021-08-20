@@ -1,10 +1,10 @@
-# NSIS Language Files for Atom
+# atom-language-nlf
 
-[![apm](https://img.shields.io/apm/l/language-nlf.svg?style=flat-square)](https://atom.io/packages/language-nlf)
-[![apm](https://img.shields.io/apm/v/language-nlf.svg?style=flat-square)](https://atom.io/packages/language-nlf)
-[![apm](https://img.shields.io/apm/dm/language-nlf.svg?style=flat-square)](https://atom.io/packages/language-nlf)
-[![CircleCI](https://flat.badgen.net/circleci/github/idleberg/atom-language-nlf)](https://circleci.com/gh/idleberg/atom-language-nlf)
-[![David](https://img.shields.io/david/dev/idleberg/atom-language-nlf.svg?style=flat-square)](https://david-dm.org/idleberg/atom-language-nlf?type=dev)
+[![apm](https://flat.badgen.net/apm/license/language-nlf)](https://atom.io/packages/language-nlf)
+[![apm](https://flat.badgen.net/apm/v/language-nlf)](https://atom.io/packages/language-nlf)
+[![apm](https://flat.badgen.net/apm/dl/language-nlf)](https://atom.io/packages/language-nlf)
+[![CI](https://img.shields.io/github/workflow/status/idleberg/atom-language-nlf/CI?style=flat-square)](https://github.com/idleberg/atom-language-nlf/actions)
+[![David](https://flat.badgen.net/david/dev/idleberg/atom-language-nlf)](https://david-dm.org/idleberg/atom-language-nlf?type=dev)
 
 Atom language support for NSIS Language Files
 
