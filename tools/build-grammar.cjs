@@ -11,7 +11,7 @@ const languageNames = Object.keys(languages);
 mkdir('./grammars', {}, err => {
     if (err && err.code !== 'EEXIST') throw err;
 
-    languageNames.forEach(language => {
+    languageNames.map(language => {
         const long = (meta[language] && meta[language].long) ? meta[language].long : language;
         const capital = toCapitalCase(long);
         const slug = toSlugCase(long);

@@ -14,7 +14,9 @@
     "setup"
   ],
   "scripts": {
-    "build": "node tools/build-grammar.js && node tools/build-snippets.js",
+    "build:grammar": "node tools/build-grammar.cjs",
+    "build:snippets": "node tools/build-snippets.cjs",
+    "build": "npm-run-all --parallel build:*",
     "postinstall": "npm run build",
     "precommit": "npm run test",
     "test": "gulp lint"
@@ -30,25 +32,18 @@
     "language-nsis"
   ],
   "dependencies": {
-    "@nsis/language-data": "^0.7.1",
+    "@nsis/language-data": "^0.8.0",
     "atom-package-deps": "^5.0.0",
-    "cson": "^5.1.0",
-    "log-symbols": "^3.0.0",
+    "cson": "^7.20.0",
+    "log-symbols": "^4.0.0",
+    "npm-run-all": "^4.1.5",
     "to-capital-case": "^1.0.0",
     "to-slug-case": "^1.0.0"
   },
   "devDependencies": {
-    "babel-eslint": "^10.0.1",
-    "coffeelint-stylish": "^0.1.2",
-    "eslint": "^5.14.1",
-    "eslint-config-atom-build": "^4.0.0",
-    "gulp": "^4.0.0",
-    "gulp-coffeelint": "^0.6.0",
-    "gulp-debug": "^4.0.0",
-    "gulp-jshint": "^2.1.0",
-    "gulp-jsonlint": "^1.2.2",
-    "gulp-lesshint": "^6.0.0",
-    "husky": "^1.3.1",
-    "jshint": "^2.10.1"
+    "eslint": "^7.32.0",
+    "eslint-plugin-json": "^3.1.0",
+    "husky": "^7.0.1",
+    "lint-staged": "^11.1.2"
   }
 }

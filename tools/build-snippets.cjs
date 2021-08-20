@@ -1,7 +1,6 @@
 // Dependencies
 const CSON = require('cson');
 const logSymbols = require('log-symbols');
-const toCapitalCase = require('to-capital-case');
 const toSlugCase = require('to-slug-case');
 const { join } = require('path');
 const { languages, meta } = require('@nsis/language-data');
@@ -13,14 +12,13 @@ const output = {};
 mkdir('./snippets', {}, err => {
     if (err && err.code !== 'EEXIST') throw err;
 
-    languageNames.forEach(language => {
+    languageNames.map(language => {
         const long = (meta[language] && meta[language].long) ? meta[language].long : language;
-        const capital = toCapitalCase(long);
         const slug = toSlugCase(long);
 
         const snippets = {};
 
-        Object.keys(languages[language].strings).forEach((stringKey, index ) => {
+        Object.keys(languages[language].strings).map((stringKey ) => {
             const key = stringKey;
             const value = languages[language].strings[key];
 
