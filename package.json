@@ -19,6 +19,7 @@
     "build": "npm-run-all --parallel build:*",
     "postinstall": "npm run build",
     "precommit": "npm run test",
+    "prepare": "husky install",
     "lint": "eslint ./tools/*.cjs",
     "test": "npm run lint"
   },
