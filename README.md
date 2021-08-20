@@ -5,7 +5,6 @@
 [![apm](https://img.shields.io/apm/dm/language-nlf.svg?style=flat-square)](https://atom.io/packages/language-nlf)
 [![CircleCI](https://flat.badgen.net/circleci/github/idleberg/atom-language-nlf)](https://circleci.com/gh/idleberg/atom-language-nlf)
 [![David](https://img.shields.io/david/dev/idleberg/atom-language-nlf.svg?style=flat-square)](https://david-dm.org/idleberg/atom-language-nlf?type=dev)
-[![Gitter](https://img.shields.io/badge/chat-Gitter-ed1965.svg?style=flat-square)](https://gitter.im/NSIS-Dev/Atom)
 
 Atom language support for NSIS Language Files
 
