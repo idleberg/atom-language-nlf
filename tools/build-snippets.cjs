@@ -1,10 +1,10 @@
 // Dependencies
-const CSON = require('cson');
-const logSymbols = require('log-symbols');
-const toSlugCase = require('to-slug-case');
 const { join } = require('path');
 const { languages, meta } = require('@nsis/language-data');
 const { mkdir, writeFile } = require('fs');
+const CSON = require('cson');
+const logSymbols = require('log-symbols');
+const toSlugCase = require('to-slug-case');
 
 const languageNames = Object.keys(languages);
 const output = {};

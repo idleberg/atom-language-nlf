@@ -1,12 +1,12 @@
 // Dependencies
-const CSON = require('cson');
-const logSymbols = require('log-symbols');
-const toCapitalCase = require('to-capital-case');
-const toSlugCase = require('to-slug-case');
 const { join } = require('path');
 const { languages, meta } = require('@nsis/language-data');
 const { mkdir, writeFile } = require('fs');
+const CSON = require('cson');
 const languageNames = Object.keys(languages);
+const logSymbols = require('log-symbols');
+const toCapitalCase = require('to-capital-case');
+const toSlugCase = require('to-slug-case');
 
 mkdir('./grammars', {}, err => {
     if (err && err.code !== 'EEXIST') throw err;
